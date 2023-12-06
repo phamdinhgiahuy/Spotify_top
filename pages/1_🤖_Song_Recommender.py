@@ -64,7 +64,7 @@ with st.expander("Peek at 🎛️:violet[audio features] terminology 🎼"):
     #st.image("https://static.streamlit.io/examples/dice.jpg")
 
 #Load dataset
-spotify = pd.read_csv(r"C:\Users\Admin\OneDrive - Michigan State University\Courses\CMSE 830\Project\Dataset\spotify-2023.csv", encoding='ISO-8859-1')
+spotify = pd.read_csv(r"spotify-2023.csv", encoding='ISO-8859-1')
 
 #Pre processing
 spotify_ml = spotify.copy()

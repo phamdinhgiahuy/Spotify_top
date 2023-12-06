@@ -53,7 +53,7 @@ if st.sidebar.button("Predict 🌠"):
     with st.status("Building the Stream Predictor...", expanded=True) as status:
         st.write("Preparing the dataset...")
             #Load dataset
-        spotify = pd.read_csv(r"C:\Users\Admin\OneDrive - Michigan State University\Courses\CMSE 830\Project\Dataset\spotify-2023.csv", encoding='ISO-8859-1')
+        spotify = pd.read_csv(r"spotify-2023.csv", encoding='ISO-8859-1')
 
         #Pre processing
         spotify_ml = spotify.copy()
