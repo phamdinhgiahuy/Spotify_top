@@ -6,7 +6,7 @@ st.set_page_config(
 )
 
 st.sidebar.success("Pick a Tool to start 👆")
-st.sidebar.write("put together by :blue[**Huy Pham**] 😿")
+st.sidebar.write("presented to you by :blue[**Huy Pham**] ⭐")
 # Project Overview
 st.markdown("## Hello 👋, Welcome to your next biggest :green[Spotify] hit 😲")
 with st.expander("## Project Overview 🎵", expanded=True):
